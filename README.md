@@ -48,7 +48,7 @@ AI chatbot · Contact form (WhatsApp + Email) · GitHub & WakaTime stats · Cert
 - 🔍 **SEO Ready** — Structured data (JSON-LD), OpenGraph, Twitter cards, sitemap, robots.
 - 🌐 **Fully Configurable** — Personal/brand data lives in `frontend/src/config/Identity.ts` (code) and a few `VITE_*` env vars (no editing components needed).
 - 📱 **Responsive** — Mobile-first design with a classic linktree page.
-- 🧩 **Reusable Template** — Clean, easy-to-navigate structure; a "Portfolio template" link in the footer points to [`fiqtor.com-create-your-own`](https://github.com/FIQTOR/fiqtor.com-create-your-own).
+- 🧩 **Reusable Template** — Clean, easy-to-navigate structure; a "Portfolio template" link in the footer points to [`jepin.com-create-your-own`](https://github.com/heimalingpangsit/jepin.com-create-your-own).
 
 ---
 
@@ -115,18 +115,18 @@ This repository contains **no application code of its own** — it's an **umbrel
 
 | Submodule    | Repository                              | Purpose                          |
 | ------------ | --------------------------------------- | -------------------------------- |
-| `backend/`   | `https://github.com/FIQTOR/api.fiqtor`  | Node.js + Express API            |
-| `frontend/`  | `https://github.com/FIQTOR/fiqtor.com`  | React 19 + Vite web app          |
+| `backend/`   | `https://github.com/heimalingpangsit/api.jepin`  | Node.js + Express API            |
+| `frontend/`  | `https://github.com/heimalingpangsit/jepin.com`  | React 19 + Vite web app          |
 
 The mapping lives in [`.gitmodules`](.gitmodules):
 
 ```ini
 [submodule "backend"]
 	path = backend
-	url = https://github.com/FIQTOR/api.fiqtor
+	url = https://github.com/heimalingpangsit/api.jepin
 [submodule "frontend"]
 	path = frontend
-	url = https://github.com/FIQTOR/fiqtor.com
+	url = https://github.com/heimalingpangsit/jepin.com
 ```
 
 **What this means in practice:**
@@ -140,7 +140,7 @@ The mapping lives in [`.gitmodules`](.gitmodules):
 
 ```bash
 # Option A — clone everything in one go
-git clone --recurse-submodules https://github.com/FIQTOR/fiqtor.com-create-your-own.git
+git clone --recurse-submodules https://github.com/heimalingpangsit/jepin.com-create-your-own.git
 cd fiqtor.com-create-your-own
 
 # Option B — already cloned without submodules?
